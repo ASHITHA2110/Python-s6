@@ -1,0 +1,12 @@
+Write a Python program to find  or pow(X,Y) without using the standard function
+
+
+X = int(input("Enter the base (X): "))
+Y = int(input("Enter the exponent (Y): "))
+
+
+result = 1
+for _ in range(Y):
+    result *= X
+
+print(f"{X} to the power of {Y} is {result}")
