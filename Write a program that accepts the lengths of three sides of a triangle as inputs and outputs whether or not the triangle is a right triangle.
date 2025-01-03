@@ -1,12 +1,10 @@
-Write a program that accepts the lengths of three sides of a triangle as inputs and outputs whether or not the triangle is a right triangle.
+Write a program that accepts the lengths of three sides of a triangle as inputs and outputs whether or not the triangle is 
 
-
-# Input the sides of the triangle
 a = int(input("Enter the first side: "))
 b = int(input("Enter the second side: "))
 c = int(input("Enter the third side: "))
 
-# Check if it's a right triangle
+
 if a**2 + b**2 == c**2 or b**2 + c**2 == a**2 or c**2 + a**2 == b**2:
     print("The triangle is a right triangle.")
 else:
