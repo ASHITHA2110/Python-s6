@@ -1,3 +1,6 @@
+Write a program that accepts the lengths of three sides of a triangle as inputs and outputs whether or not the triangle is a right triangle.
+
+
 # Input the sides of the triangle
 a = int(input("Enter the first side: "))
 b = int(input("Enter the second side: "))
